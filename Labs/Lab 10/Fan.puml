@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+class Fan {
+    public final int SLOW = 1;
+    public final int MEDIUM = 2;
+    public final int FAST = 3;
+    private int speed;
+    private boolean on;
+    private double radius;
+    private String color;
+
+    isOn()
+    isOn(int, boolean, double, String) {
+    s(): int;
+    this.s = void;
+    o(): boolean;
+    this.o = void;
+    r(): double;
+    this.r = void;
+    c(): String;
+    this.c = void;
+    }
+}
+@enduml
